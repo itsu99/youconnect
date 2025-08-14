@@ -24,14 +24,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お問い合わせ - 〇〇電気工事株式会社</title>
+    <title>お問い合わせ - 株式会社youconnect</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
 </head>
 <body>
 
 <header>
-    <div class="logo">〇〇電気工事株式会社</div>
+    <div class="logo">株式会社youconnect</div>
     <nav>
         <ul>
             <li><a href="index.html">トップ</a></li>
