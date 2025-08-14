@@ -1,0 +1,162 @@
+/* style.css */
+
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 基本フォント */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #0072bc;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* セクション */
+.hero {
+    background-color: #e0f0ff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.features ul,
+.works-gallery {
+    margin-top: 15px;
+}
+
+.features ul li {
+    margin-bottom: 8px;
+}
+
+.works-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.work-item {
+    flex: 1 1 calc(33.333% - 10px);
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.work-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* ボタン */
+.btn-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0072bc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-contact:hover {
+    background-color: #005a9e;
+}
+
+/* フォーム */
+form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0072bc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005a9e;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
